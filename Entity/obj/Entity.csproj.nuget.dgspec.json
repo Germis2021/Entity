@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\RYZAS10\\source\\repos\\Entity\\Entity\\Entity.csproj": {}
+    "C:\\Users\\RYZAS10\\Documents\\GitHub\\Entity\\Entity\\Entity.csproj": {}
   },
   "projects": {
-    "C:\\Users\\RYZAS10\\source\\repos\\Entity\\Entity\\Entity.csproj": {
+    "C:\\Users\\RYZAS10\\Documents\\GitHub\\Entity\\Entity\\Entity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\RYZAS10\\source\\repos\\Entity\\Entity\\Entity.csproj",
+        "projectUniqueName": "C:\\Users\\RYZAS10\\Documents\\GitHub\\Entity\\Entity\\Entity.csproj",
         "projectName": "Entity",
-        "projectPath": "C:\\Users\\RYZAS10\\source\\repos\\Entity\\Entity\\Entity.csproj",
+        "projectPath": "C:\\Users\\RYZAS10\\Documents\\GitHub\\Entity\\Entity\\Entity.csproj",
         "packagesPath": "C:\\Users\\RYZAS10\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\RYZAS10\\source\\repos\\Entity\\Entity\\obj\\",
+        "outputPath": "C:\\Users\\RYZAS10\\Documents\\GitHub\\Entity\\Entity\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\RYZAS10\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,6 +40,14 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "BCrypt.Net-Next": {
+              "target": "Package",
+              "version": "[4.0.2, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[5.0.13, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[5.0.13, )"

@@ -18,6 +18,9 @@ namespace Entity.Models
 
         public DbSet<Mopedas> Mopedai { get; set; }
 
+        public DbSet<Vartotojas> Vartotojai { get; set; }
+
+
 
     }
 }
