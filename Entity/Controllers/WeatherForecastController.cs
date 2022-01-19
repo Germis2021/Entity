@@ -1,4 +1,5 @@
 ﻿using Entity.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System.Collections.Generic;
@@ -30,6 +31,7 @@ namespace Entity.Controllers
 
         [HttpGet]
         [Route("/automobiliai")]
+        [Authorize]
         public List<Automobilis> Automobiliai()
         {
             return _dbContext.Automobiliai.Where(x => x.Marke != "kazkas").ToList();
