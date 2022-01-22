@@ -13,6 +13,7 @@ namespace Entity.Models
         public string Vardas { get; set; }
 
         public string Slaptazodis { get; set; }
+
         public string Pastas { get; set; }
     }
 }
